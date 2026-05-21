@@ -17,7 +17,7 @@ public class WebPage {
     By zipCodeInput = By.xpath("/html/body/div[1]/div/div/div[3]/div/div/div[2]/div/div/form/div/div[3]/input");
     By stockStatus = By.xpath("/html/body/div/div/div/div[5]/div/div/div/div[2]/div[2]/div/div[3]");
     public static final String LINK1 = "https://shop.amul.com/en/product/amul-high-protein-plain-lassi-200-ml-or-pack-of-30";
-    public static final String LINK2 = "https://shop.amul.com/en/product/amul-high-protein-rose-lassi-200-ml-or-pack-of-30";
+    public static final String LINK2 = "https://shop.amul.com/en/product/amul-high-protein-blueberry-shake-200-ml-or-pack-of-30";
 
     public void setZipCode(String zipCode) {
         WebDriverWait wait =
